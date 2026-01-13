@@ -1,0 +1,49 @@
+:root {
+  --brand: #4f46e5;
+}
+
+.brand-gradient {
+  background: linear-gradient(90deg, rgba(79, 70, 229, 1) 0%, rgba(59, 130, 246, 1) 100%);
+}
+
+.logo-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background: var(--brand);
+  display: inline-block;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#map {
+  width: 100%;
+  height: 420px;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #f1f5f9;
+}
+
+/* выделение выбранного репетитора */
+.table .selected-row {
+  outline: 2px solid rgba(79, 70, 229, 0.6);
+  background: rgba(79, 70, 229, 0.08);
+}
+
+.toast-container {
+  z-index: 1080;
+}
